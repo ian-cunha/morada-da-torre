@@ -18,17 +18,17 @@ function Whatsapp() {
         email,
         telefone,
         url_origem: "https://www.morataresidence.com.br",
-        id_empresa: 5878,
+        id_empresa: 1873,
         tipo_origem: 3,
         id_outra_origem: 5,
         id_detalhe_outra_origem: 820,
         tipo_de_interesse: 0,
         idAcao: 0,
-        mensagem: "Quero ter mais informações."
+        mensagem: "Olá, tenho interesse no Morata Clube Residence."
       }
     })
       .then(function (response) {
-        window.location = "https://api.whatsapp.com/send/?phone=5581984094142&text=Ol%C3%A1%2C+visitei+o+site+e+tenho+interesse+de+conhecer+o+Smart+Imobili%C3%A1rio%21&type=phone_number&app_absent=0"
+        window.location = "https://api.whatsapp.com/send?phone=55819000000000&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Morata%20Residence%20Club!"
         console.log(response.data);
         console.log("Nome:", nome_contato, "/", "Email:", email, "Telefone:", telefone, "=", "Contato Enviado com sucesso!")
       });
