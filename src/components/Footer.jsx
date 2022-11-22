@@ -3,7 +3,7 @@ import logoMarta from "../assets/logo/logoMarta.webp"
 
 function Footer() {
   return (
-    <div className="bg-gray text-light pt-2 pb-2">
+    <div className="bg-gray text-light pt-3 pb-3">
       <div className="container">
         <h4>Saiba mais</h4>
         <img src={logoMarta} alt="" />

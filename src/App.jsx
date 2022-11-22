@@ -3,6 +3,7 @@ import Footer from "./components/footer"
 import TopText from "./components/TopText";
 import Form from "./components/Form";
 import Body from "./components/Body";
+import Whatsapp from "./components/Whatsapp";
 
 import Background from "./assets/img/bg.webp";
 
@@ -14,16 +15,17 @@ function App() {
   return (
     <div>
 
-      <TopBar></TopBar>
+      <TopBar />
+      <Whatsapp />
 
       <div className="bg text-light d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
-        <TopText></TopText>
-        <Form></Form>
+        <TopText />
+        <Form />
       </div>
 
-      <Body></Body>
+      <Body />
 
-      <Footer></Footer>
+      <Footer />
 
     </div>
   )

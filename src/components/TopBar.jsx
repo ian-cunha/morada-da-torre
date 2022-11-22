@@ -17,7 +17,11 @@ function TopBar() {
               <a className="nav-link active" aria-current="page" href="#">Início</a>
             </li>
           </ul>
-          <a className="text-light fs-5" href=""><i className="bi bi-whatsapp"></i></a>
+          <a className="text-light fs-5" href="">
+            <a className="text-light fs-5" type="button" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+              <i className="bi bi-whatsapp"></i>
+            </a>
+          </a>
         </div>
       </div>
     </nav>
