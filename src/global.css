@@ -32,6 +32,10 @@
   background-color: #E2C9BB !important;
 }
 
+.bg-gray {
+  background-color: #212529 !important;
+}
+
 .bg {
   background-image: url(./assets/img/bg.webp);
   background-repeat: no-repeat;
