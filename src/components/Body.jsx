@@ -43,9 +43,6 @@ function Body() {
           <h3 className="fs-5 box-2">3 TORRES</h3>
           <h3 className="fs-5 box-2">18 ANDARES</h3>
           <h3 className="fs-5 box-2">8 APARTAMENTOS POR ANDAR</h3>
-          <h3 className="fs-5 box-2">148 UNIDADES POR TORRE</h3>
-
-          <h2 className="fs-1 fw-bold">444 UNIDADES</h2>
           <p>*Com opções de terreo e solarium</p>
         </div>
       </div>

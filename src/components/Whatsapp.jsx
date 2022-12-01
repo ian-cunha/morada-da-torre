@@ -19,6 +19,7 @@ function Whatsapp() {
         telefone,
         url_origem: "https://www.morataresidence.com.br",
         id_empresa: 1873,
+        id_empreendimento: 65452,
         tipo_origem: 3,
         id_outra_origem: 5,
         id_detalhe_outra_origem: 820,
@@ -28,7 +29,7 @@ function Whatsapp() {
       }
     })
       .then(function (response) {
-        window.location = "https://api.whatsapp.com/send?phone=55819000000000&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Morata%20Residence%20Club!"
+        window.location = "https://api.whatsapp.com/send?phone=5581973154254&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Morata%20Residence%20Club!"
         console.log(response.data);
         console.log("Nome:", nome_contato, "/", "Email:", email, "Telefone:", telefone, "=", "Contato Enviado com sucesso!")
       });
@@ -49,18 +50,18 @@ function Whatsapp() {
 
                 <fieldset>
                   <div>
-                    <label htmlFor="contatoNome" className="form-label text-light">Nome</label>
+                    <label htmlFor="contatoNome" className="form-label text-light"></label>
                     <input onChange={(e) => setNome(e.target.value)} type="text" className="form-control form-control-lg" name="nome_contato" id="contatoNome" required placeholder="Nome" />
                   </div>
                   <div>
-                    <label htmlFor="contatoEmail" className="form-label text-light">Email</label>
+                    <label htmlFor="contatoEmail" className="form-label text-light"></label>
                     <input onChange={(e) => setEmail(e.target.value)} type="email" className="form-control form-control-lg" name="email" id="contatoEmail" required placeholder="E-mail" />
                   </div>
                   <div>
-                    <label htmlFor="contatoTelefone" className="form-label text-light">Whatsapp</label>
+                    <label htmlFor="contatoTelefone" className="form-label text-light"></label>
                     <input onChange={(e) => setTelefone(e.target.value)} type="tel" maxLength="11" className="form-control form-control-lg" name="telefone" id="contatoTelefone" required placeholder="Whatsapp" />
                   </div>
-                  <button value={0} onClick={(e) => setEmpreendimento(e.target.value)} type="submit" className="btn bg-primary btn-lg text-light w-100 mt-4">Quero saber mais! <i className="bi bi-arrow-right-circle"></i></button>
+                  <button value={65452} onClick={(e) => setEmpreendimento(e.target.value)} type="submit" className="btn bg-primary btn-lg text-light w-100 mt-4">Quero saber mais! <i className="bi bi-arrow-right-circle"></i></button>
                   <p className="mt-2"><i className="bi bi-shield-check"></i> Garantimos a privacidade de seus dados</p>
                 </fieldset>
               </form>

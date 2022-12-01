@@ -42,15 +42,15 @@ function Form() {
 
         <fieldset>
           <div>
-            <label htmlFor="contatoNome" className="form-label text-light">Nome</label>
+            <label htmlFor="contatoNome" className="form-label text-light"></label>
             <input onChange={(e) => setNome(e.target.value)} type="text" className="form-control form-control-lg" name="nome_contato" id="contatoNome" required placeholder="Nome" />
           </div>
           <div>
-            <label htmlFor="contatoEmail" className="form-label text-light">Email</label>
+            <label htmlFor="contatoEmail" className="form-label text-light"></label>
             <input onChange={(e) => setEmail(e.target.value)} type="email" className="form-control form-control-lg" name="email" id="contatoEmail" required placeholder="E-mail" />
           </div>
           <div>
-            <label htmlFor="contatoTelefone" className="form-label text-light">Whatsapp</label>
+            <label htmlFor="contatoTelefone" className="form-label text-light"></label>
             <input onChange={(e) => setTelefone(e.target.value)} type="tel" maxLength="11" className="form-control form-control-lg" name="telefone" id="contatoTelefone" required placeholder="Whatsapp" />
           </div>
           <button value={65452} onClick={(e) => setEmpreendimento(e.target.value)} type="submit" className="btn bg-primary btn-lg text-light w-100 mt-4">Quero saber mais! <i className="bi bi-arrow-right-circle"></i></button>
