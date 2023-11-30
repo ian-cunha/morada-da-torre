@@ -59,6 +59,7 @@
   font-size: 1.3em;
   font-weight: 500;
   text-align: start;
+  width: 500px;
 }
 
 .blockText {
@@ -122,6 +123,7 @@
   
   .secondText {
     text-align: center;
+    width: 100%;
   }
   
   .blockText {
@@ -131,7 +133,9 @@
   }
 
   .bg {
-    background-image: url(./assets/img/background.jpg);
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/img/background.jpg);
     background-repeat: no-repeat;
     background-size: 500vw;
     background-position: center;
