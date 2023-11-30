@@ -1,54 +1,55 @@
 
 import { AddressMap } from "./Maps"
-import img1 from "../assets/img/morata-1.webp"
-import img2 from "../assets/img/morata-2.webp"
-import img3 from "../assets/img/morata-3.webp"
-import img4 from "../assets/img/morata-4.webp"
+import img1 from "../assets/img/1.jpg"
+import img2 from "../assets/img/2.jpg"
+import img3 from "../assets/img/3.jpg"
+import img4 from "../assets/img/4.jpg"
+import img5 from "../assets/img/5.jpg"
+import img6 from "../assets/img/6.jpg"
+
+import render from "../assets/img/morada-render.png"
 
 import piscina from "../assets/icons/piscina.svg"
 import areaGourmet from "../assets/icons/gourmet.svg"
-import beachTennis from "../assets/icons/beachTennis.svg"
-import salaoFestas from "../assets/icons/festa.svg"
 import academia from "../assets/icons/academia.svg"
 import brinquedoteca from "../assets/icons/brinquedoteca.svg"
-import playground from "../assets/icons/playground.svg"
-import futebol from "../assets/icons/futebol.svg"
-import bicicletario from "../assets/icons/bicicletario.svg"
-import petPlaca from "../assets/icons/pet.svg"
+import sauna from "../assets/icons/sauna.svg"
+import split from "../assets/icons/split.svg"
+import gas from "../assets/icons/gas.svg"
 
 function Body() {
   return (
     <div>
       <div className="bg-2 bg-terciary text-secondary d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
-        <h2 className="topText mb-5 fw-semibold">Escolher o Morata Clube como seu future lar é ter tudo que você
+        <h2 className="topText mb-5 fw-semibold">Escolher o Morada da Torre como seu futuro lar é ter tudo que você
           procura em um empreendimento.
         </h2>
         <div>
-          <h3 className="fs-5 box">2 QUARTOS C/ SUITE E VARANDA</h3>
+          <h3 className="fs-5 box">2 QUARTOS SENDO UMA 1 SUÍTE</h3>
+          <h3 className="fs-5 box">SALA DE JANTAR/ESTAR</h3>
+          <h3 className="fs-5 box">W.C SOCIAL</h3>
           <h3 className="fs-5 box">COZINHA</h3>
-          <h3 className="fs-5 box">AREA DE SERVICO</h3>
-          <h3 className="fs-5 box">WC SOCIAL</h3>
+          <h3 className="fs-5 box">ÁREA DE SERVIÇO</h3>
+          <h3 className="fs-5 box">TODOS APARTAMENTOS NASCENTES</h3>
+          <h3 className="fs-5 box">1 VAGA NA GARAGEM</h3>
         </div>
       </div>
 
       <div className="bg-3 bg-secondary text-light d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
+        <div>
+          <img src={render} className="imgSize mt-1 mb-1" alt="Render" />
+        </div>
         <div className="topText mb-3">
           <h2 className="fw-semibold">SINTA TODO O PRAZER DE ESTAR EM CASA</h2>
-          <p>O Morata Clube é mais um projeto Maxplural que une qualidade de
+          <p>O Morada da Torre é mais um projeto Argila Incorporações que une qualidade de
             vida e praticidade o resultado é um lar repleto de conforto.
             lazer e funcionalizade para a vivência de histórias inesquecíveis em família.
           </p>
         </div>
-        <div>
-          <h3 className="fs-5 box-2">3 TORRES</h3>
-          <h3 className="fs-5 box-2">18 ANDARES</h3>
-          <h3 className="fs-5 box-2">8 APARTAMENTOS POR ANDAR</h3>
-          <p>*Com opções de terreo e solarium</p>
-        </div>
       </div>
 
       <div className="bg-4 bg-primary text-light d-flex flex-column justify-content-evenly align-items-center">
-        <h2 className="fw-semibold topText mb-5 fs-1">DIFERENÇAS DE VIVER NO MORATA CLUBE RESIDENCE</h2>
+        <h2 className="fw-semibold topText mb-5 fs-1">DIFERENÇAS DE VIVER NO MORADA DA TORRE RESIDENCE</h2>
         <div className="container text-center">
 
           <div className="row fs-5 fw-semibold">
@@ -58,52 +59,35 @@ function Body() {
             </div>
 
             <div className="col">
+              <img src={sauna} width="80px" alt="Sauna" />
+              <p>Sauna</p>
+            </div>
+
+            <div className="col">
               <img src={areaGourmet} width="80px" alt="Área Gourmet" />
-              <p>Área Gourmet</p>
-            </div>
-
-            <div className="col">
-              <img src={beachTennis} width="80px" alt="Quadra beach tênis" />
-              <p>Quadra beach tênis</p>
-            </div>
-          </div>
-
-          <div className="row fs-5 fw-semibold">
-            <div className="col">
-              <img src={salaoFestas} width="80px" alt="Salão de festas" />
-              <p>Salão de festas</p>
+              <p>Espaço Gourmet</p>
             </div>
 
             <div className="col">
               <img src={academia} width="80px" alt="Academia" />
               <p>Academia</p>
             </div>
+          </div>
 
+          <div className="row fs-5 fw-semibold mt-5">
             <div className="col">
               <img src={brinquedoteca} width="80px" alt="Brinquedoteca" />
               <p>Brinquedoteca</p>
             </div>
-          </div>
 
-          <div className="row fs-5 fw-semibold">
             <div className="col">
-              <img src={playground} width="80px" alt="Playground" />
-              <p>Playground</p>
+              <img src={split} width="80px" alt="Instalação para split" />
+              <p>Instalação para split</p>
             </div>
 
             <div className="col">
-              <img src={futebol} width="80px" alt="Campo de futebol" />
-              <p>Campo de futebol</p>
-            </div>
-
-            <div className="col">
-              <img src={bicicletario} width="80px" alt="Bicicletário" />
-              <p>Bicicletário</p>
-            </div>
-
-            <div className="col">
-              <img src={petPlaca} width="80px" alt="Petplaca" />
-              <p>Petplaca</p>
+              <img src={gas} width="80px" alt="Central de gás" />
+              <p>Central de gás</p>
             </div>
           </div>
 
@@ -114,16 +98,22 @@ function Body() {
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={img1} className="img-def d-block" alt="Imagem Morata" />
+              <img src={img1} className="img-def d-block" alt="Imagem Morada da Torre" />
             </div>
             <div className="carousel-item">
-              <img src={img2} className="img-def d-block" alt="Imagem Morata" />
+              <img src={img2} className="img-def d-block" alt="Imagem Morada da Torre" />
             </div>
             <div className="carousel-item">
-              <img src={img3} className="img-def d-block" alt="Imagem Morata" />
+              <img src={img3} className="img-def d-block" alt="Imagem Morada da Torre" />
             </div>
             <div className="carousel-item">
-              <img src={img4} className="img-def d-block" alt="Imagem Morata" />
+              <img src={img4} className="img-def d-block" alt="Imagem Morada da Torre" />
+            </div>
+            <div className="carousel-item">
+              <img src={img5} className="img-def d-block" alt="Imagem Morada da Torre" />
+            </div>
+            <div className="carousel-item">
+              <img src={img6} className="img-def d-block" alt="Imagem Morada da Torre" />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -141,7 +131,7 @@ function Body() {
         <div className="container">
           <h2 className="fs-2">Você pertinho de tudo que precisa</h2>
           <h4 className="fs-5">Viva em sintonia com o seu bem-estar</h4>
-          <p className="fs-5 mb-3"><i className="bi bi-geo-alt-fill"></i> AV. SUL GOV. CID SAMPAIO, 111 - IMBIRIBEIRA
+          <p className="fs-5 mb-3"><i className="bi bi-geo-alt-fill"></i> Rua Benjamin Constant, 159 - Torre - Recife-PE.
           </p>
         </div>
 
@@ -150,7 +140,7 @@ function Body() {
         </div>
       </div>
 
-    </div>
+    </div >
   )
 }
 

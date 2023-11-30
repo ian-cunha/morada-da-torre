@@ -17,19 +17,19 @@ function Whatsapp() {
         nome_contato,
         email,
         telefone,
-        url_origem: "https://www.morataresidence.com.br",
-        id_empresa: 1873,
-        id_empreendimento: 65452,
+        url_origem: "https://argilainc.com.br",
+        id_empresa: 7126,
+        id_empreendimento: 4500,
         tipo_origem: 3,
         id_outra_origem: 5,
         id_detalhe_outra_origem: 820,
         tipo_de_interesse: 0,
         idAcao: 0,
-        mensagem: "Olá, tenho interesse no Morata Clube Residence."
+        mensagem: "Olá, tenho interesse no Morada da Torre."
       }
     })
       .then(function (response) {
-        window.location = "https://api.whatsapp.com/send?phone=5581973154254&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Morata%20Residence%20Club!"
+        window.location = "https://api.whatsapp.com/send?phone=5581900000000"
         console.log(response.data);
         console.log("Nome:", nome_contato, "/", "Email:", email, "Telefone:", telefone, "=", "Contato Enviado com sucesso!")
       });

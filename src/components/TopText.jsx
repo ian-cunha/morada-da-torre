@@ -1,14 +1,9 @@
-import logoOrange from "../assets/logo/logoOrange.webp"
-
 function TopText() {
   return (
     <div className="topText">
-      <img src={logoOrange} className="imgSize mt-1 mb-1" alt="Logo" />
-      <h1>Será um prazer estar em casa</h1>
-      <p>O Morata Clube Residence é um empreendimento
-        que reúne: modernidade, conforto e acessibilidade, com estrutura de lazer completa
-         e localização privilegiada. uma oportunidade única para você e sua família.
-      </p>
+      <h1 className="firstText text-primary">EDF. Morada da Torre</h1>
+      <p className="secondText">Localizado a 100 metros da BEIRA-RIO. Um empreendimento com excelente acabamento e ótima localização.</p>
+      <h2 className="blockText">APARTAMENTO PRONTO PARA MORAR!</h2>
     </div>
   )
 }
