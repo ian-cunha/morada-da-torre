@@ -71,6 +71,18 @@
   padding: 10px;
 }
 
+.blockText2 {
+  font-size: 1em;
+  background-color: #004B23;
+  color: #c9e9e9;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.financiamento {
+  text-decoration-line: underline;
+}
+
 .imgSize {
   width: 330px;
 }
@@ -116,6 +128,10 @@
   border-radius: 30px;
   border: 2px solid #39B549;
   padding: 8px;
+}
+
+.img-map {
+  width: 60vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -192,5 +208,9 @@
   .img-def {
     width: 100vw;
     height: 50vh;
+  }
+
+  .img-map {
+    width: 100vw;
   }
 }

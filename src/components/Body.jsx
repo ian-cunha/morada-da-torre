@@ -6,6 +6,7 @@ import img3 from "../assets/img/3.jpg"
 import img4 from "../assets/img/4.jpg"
 import img5 from "../assets/img/5.jpg"
 import img6 from "../assets/img/6.jpg"
+import mapa from "../assets/img/mapa.jpg"
 
 import render from "../assets/img/morada-render.png"
 
@@ -21,9 +22,13 @@ function Body() {
   return (
     <div>
       <div className="bg-2 bg-terciary text-secondary d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
-        <h2 className="topText mb-5 fw-semibold text-light">Escolher o Morada da Torre como seu futuro lar é ter tudo que você
-          procura em um empreendimento.
-        </h2>
+        <div className="topText mb-5">
+          <h2 className="fw-bold text-light fs-2">Condições especiais, a partir de <b className="blockText2">R$360.000</b></h2>
+          <h2 className="fw-light text-light fs-4">Escolher o Morada da Torre como seu futuro lar é ter tudo que você
+            procura em um empreendimento.
+          </h2>
+          <p className="fw-semibold fs-4 text-light financiamento">Financiamento até em 80%</p>
+        </div>
         <div className="text-light">
           <h3 className="fs-5 box">2 QUARTOS SENDO UMA 1 SUÍTE</h3>
           <h3 className="fs-5 box">SALA DE JANTAR/ESTAR</h3>
@@ -42,14 +47,14 @@ function Body() {
         <div className="topText mb-3">
           <h2 className="fw-semibold">SINTA TODO O PRAZER DE ESTAR EM CASA</h2>
           <p>O Morada da Torre é mais um projeto Argila Incorporações que une qualidade de
-            vida e praticidade o resultado é um lar repleto de conforto.
-            lazer e funcionalizade para a vivência de histórias inesquecíveis em família.
+            vida e praticidade, o resultado é um lar repleto de conforto.
+            Lazer e funcionalidade para a vivência de histórias inesquecíveis em família.
           </p>
         </div>
       </div>
 
       <div className="bg-4 bg-primary text-light d-flex flex-column justify-content-evenly align-items-center">
-        <h2 className="fw-semibold topText mb-5 fs-1">DIFERENÇAS DE VIVER NO MORADA DA TORRE RESIDENCE</h2>
+        <h2 className="fw-semibold topText mb-5 fs-1">DIFERENÇAS DE VIVER NO MORADA DA TORRE</h2>
         <div className="container text-center">
 
           <div className="row fs-5 fw-semibold">
@@ -128,15 +133,15 @@ function Body() {
       </div>
 
       <div className="bg-5 bg-secondary text-light d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
-        <div className="container">
-          <h2 className="fs-2">Você pertinho de tudo que precisa</h2>
-          <h4 className="fs-5">Viva em sintonia com o seu bem-estar</h4>
+        <div className="container p-5">
+          <h2 className="fs-1 fw-bold">Você pertinho de tudo que precisa.</h2>
+          <h4 className="fs-5 fw-light">Viva em sintonia com o seu bem-estar</h4>
           <p className="fs-5 mb-3"><i className="bi bi-geo-alt-fill"></i> Rua Benjamin Constant, 159 - Torre - Recife-PE.
           </p>
         </div>
 
         <div>
-          <AddressMap></AddressMap>
+          <img src={mapa} className="img-map" alt="Mapa" />
         </div>
       </div>
 
