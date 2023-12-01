@@ -72,7 +72,7 @@
 }
 
 .imgSize {
-  width: 300px;
+  width: 330px;
 }
 
 .topText {
@@ -88,6 +88,12 @@
 .bg-2 {
   width: 100vw;
   height: 70vh;
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(./assets/img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
 .bg-3 {
@@ -97,12 +103,12 @@
 
 .bg-4 {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
 
 .box {
   border-radius: 30px;
-  border: 2px solid #004B23;
+  border: 2px solid white;
   padding: 8px;
 }
 
@@ -150,6 +156,12 @@
     height: 70vh;
     padding-top: 70vw;
     padding-bottom: 70vw;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: center;
   }
 
   .bg-3 {
@@ -162,8 +174,8 @@
   .bg-4 {
     width: 100vw;
     height: 70vh;
-    padding-top: 107vw;
-    padding-bottom: 100vw;
+    padding-top: 60vw;
+    padding-bottom: 60vw;
   }
 
   .bg-5 {

@@ -21,10 +21,10 @@ function Body() {
   return (
     <div>
       <div className="bg-2 bg-terciary text-secondary d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
-        <h2 className="topText mb-5 fw-semibold">Escolher o Morada da Torre como seu futuro lar é ter tudo que você
+        <h2 className="topText mb-5 fw-semibold text-light">Escolher o Morada da Torre como seu futuro lar é ter tudo que você
           procura em um empreendimento.
         </h2>
-        <div>
+        <div className="text-light">
           <h3 className="fs-5 box">2 QUARTOS SENDO UMA 1 SUÍTE</h3>
           <h3 className="fs-5 box">SALA DE JANTAR/ESTAR</h3>
           <h3 className="fs-5 box">W.C SOCIAL</h3>
