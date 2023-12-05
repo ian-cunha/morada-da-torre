@@ -72,11 +72,11 @@
 }
 
 .blockText2 {
-  font-size: 1em;
+  font-size: 0.9em;
   background-color: #004B23;
   color: #c9e9e9;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 1px 7px;
 }
 
 .financiamento {
@@ -84,7 +84,7 @@
 }
 
 .imgSize {
-  width: 330px;
+  width: 230px;
 }
 
 .topText {
@@ -96,10 +96,9 @@
   height: 100vh;
 }
 
-
 .bg-2 {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   background:
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url(./assets/img/3.jpg);
@@ -110,12 +109,12 @@
 
 .bg-3 {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 
 .bg-4 {
   width: 100vw;
-  height: 70vh;
+  height: 90vh;
 }
 
 .box {

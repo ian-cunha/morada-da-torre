@@ -13,8 +13,10 @@ function App() {
   return (
     <>
 
-      <TopBar />
-      <Whatsapp />
+      <div>
+        <TopBar />
+        <Whatsapp />
+      </div>
 
       <div className="bg text-light d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
         <TopText />
