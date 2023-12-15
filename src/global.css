@@ -45,7 +45,7 @@
   background-size: 100%;
   background-position: center;
   width: 100vw;
-  height: 70vh;
+  height: 90vh;
   margin-top: 50px;
 }
 
@@ -72,11 +72,11 @@
 }
 
 .blockText2 {
-  font-size: 1em;
+  font-size: 2em;
   background-color: #004B23;
   color: #c9e9e9;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 1px 8px;
 }
 
 .financiamento {
@@ -84,7 +84,7 @@
 }
 
 .imgSize {
-  width: 330px;
+  width: 320px;
 }
 
 .topText {
@@ -96,10 +96,13 @@
   height: 100vh;
 }
 
+.planta {
+  width: 80vw;
+}
 
 .bg-2 {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   background:
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url(./assets/img/3.jpg);
@@ -110,12 +113,21 @@
 
 .bg-3 {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 
 .bg-4 {
   width: 100vw;
-  height: 70vh;
+  height: 90vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.planta-bg {
+  width: 100vw;
+  height: 90vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .box {
@@ -139,6 +151,17 @@
     width: 80%;
   }
 
+  .planta {
+    width: 100vw;
+  }
+
+  .planta-bg {
+    width: 100vw;
+    height: 50vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .firstText {
     text-align: center;
   }
@@ -152,6 +175,14 @@
     width: 100%;
     border-radius: 10px;
     padding: 10px;
+  }
+
+  .text-correction {
+    padding-top: 220px;
+  }
+
+  .blockText2 {
+    font-size: 2em;
   }
 
   .bg {
@@ -171,12 +202,12 @@
     width: 100vw;
     height: 70vh;
     padding-top: 70vw;
-    padding-bottom: 70vw;
+    padding-bottom: 130vw;
     background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./assets/img/3.jpg);
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size: 400%;
     background-position: center;
   }
 
@@ -184,14 +215,14 @@
     width: 100vw;
     height: 70vh;
     padding-top: 90vw;
-    padding-bottom: 90vw;
+    padding-bottom: 80vw;
   }
 
   .bg-4 {
     width: 100vw;
     height: 70vh;
-    padding-top: 60vw;
-    padding-bottom: 60vw;
+    padding-top: 120vw;
+    padding-bottom: 120vw;
   }
 
   .bg-5 {

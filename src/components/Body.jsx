@@ -7,6 +7,7 @@ import img4 from "../assets/img/4.jpg"
 import img5 from "../assets/img/5.jpg"
 import img6 from "../assets/img/6.jpg"
 import mapa from "../assets/img/mapa.jpg"
+import planta from "../assets/img/planta.png"
 
 import render from "../assets/img/morada-render.png"
 
@@ -23,14 +24,15 @@ function Body() {
     <div>
       <div className="bg-2 bg-terciary text-secondary d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
         <div className="topText mb-5">
-          <h2 className="fw-bold text-light fs-2">Condições especiais, a partir de <b className="blockText2">R$360.000</b></h2>
-          <h2 className="fw-light text-light fs-4">Escolher o Morada da Torre como seu futuro lar é ter tudo que você
+          <h2 className="fw-bold text-correction text-light fs-2">Condições especiais, a partir de:</h2>
+          <b className="blockText2">R$360.000</b>
+          <h2 className="fw-light text-light fs-4 mt-3">Escolher o Morada da Torre como seu futuro lar é ter tudo que você
             procura em um empreendimento.
           </h2>
           <p className="fw-semibold fs-4 text-light financiamento">Financiamento até em 80%</p>
         </div>
         <div className="text-light">
-          <h3 className="fs-5 box">2 QUARTOS SENDO UMA 1 SUÍTE</h3>
+          <h3 className="fs-5 box">2 QUARTOS, SENDO UMA 1 SUÍTE</h3>
           <h3 className="fs-5 box">SALA DE JANTAR/ESTAR</h3>
           <h3 className="fs-5 box">W.C SOCIAL</h3>
           <h3 className="fs-5 box">COZINHA</h3>
@@ -46,7 +48,7 @@ function Body() {
         </div>
         <div className="topText mb-3">
           <h2 className="fw-semibold">SINTA TODO O PRAZER DE ESTAR EM CASA</h2>
-          <p>O Morada da Torre é mais um projeto Argila Incorporações que une qualidade de
+          <p>O Morada da Torre é mais um empreendimento da Argila Incorporações que une qualidade de
             vida e praticidade, o resultado é um lar repleto de conforto.
             Lazer e funcionalidade para a vivência de histórias inesquecíveis em família.
           </p>
@@ -132,6 +134,11 @@ function Body() {
         </div>
       </div>
 
+      <div className="planta-bg bg-primary text-light d-flex flex-column justify-content-evenly align-items-center">
+      <h2 className="fw-semibold topText fs-1">Planta</h2>
+        <img className="planta" src={planta} alt="Planta" />
+      </div>
+
       <div className="bg-5 bg-secondary text-light d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
         <div className="container p-5">
           <h2 className="fs-1 fw-bold">Você pertinho de tudo que precisa.</h2>
@@ -143,6 +150,11 @@ function Body() {
         <div>
           <img src={mapa} className="img-map" alt="Mapa" />
         </div>
+      </div>
+
+      <div className="bg-dark pt-2 pb-2">
+        <p className="text-light">Responsável de arquitetura:</p>
+        <h2 className="text-light fs-5 fw-bold">ANA CRISTINA CUNHA - CAU: A20996-1</h2>
       </div>
 
     </div >
