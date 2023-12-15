@@ -135,7 +135,7 @@ function Body() {
       </div>
 
       <div className="planta-bg bg-primary text-light d-flex flex-column justify-content-evenly align-items-center">
-      <h2 className="fw-semibold topText fs-1">Planta</h2>
+      <h2 className="fw-semibold topText fs-1">Nossas Plantas</h2>
         <img className="planta" src={planta} alt="Planta" />
       </div>
 
@@ -152,9 +152,9 @@ function Body() {
         </div>
       </div>
 
-      <div className="bg-dark pt-2 pb-2">
+      <div className="bg-dark pt-4 pb-2">
         <p className="text-light">Responsável de arquitetura:</p>
-        <h2 className="text-light fs-5 fw-bold">ANA CRISTINA CUNHA - CAU: A20996-1</h2>
+        <h2 className="text-light fs-4 fw-bold">ANA CRISTINA CUNHA - CAU: A20996-1</h2>
       </div>
 
     </div >
