@@ -49,6 +49,10 @@
   margin-top: 50px;
 }
 
+.font-footer {
+  font-size: 0.7em;
+}
+
 .firstText {
   font-size: 3em;
   font-weight: 700;
@@ -97,7 +101,7 @@
 }
 
 .planta {
-  width: 80vw;
+  width: 70vw;
 }
 
 .bg-2 {
