@@ -6,7 +6,7 @@ function Footer() {
     <div className="bg-gray text-light pt-3 pb-3">
       <div className="container">
         <img src={logoMarta} className="mt-2 mb-2" width="100px" alt="Logo Marta" />
-        <p className="font-footer">*Atendendo a lei de nº 8078/90, informamos que as imagens presentes no site são meramente ilustrativas, podendo ter variações de cor, tonalidade e especificações. Os móveis, equipamentos, adornos, decorações presentes na ambientação e nas plantas não fazem parte do bem adquirido. Reservamo-nos o direito de corrigir possíveis erros de digitação. Número do protocolo do memorial de incorporação 236.415</p>
+        <p className="font-footer">Memorial de incorporação protocolado sob o número 219927 no 4° Registro de Imóveis do Recife.</p>
       </div>
     </div>
   )
