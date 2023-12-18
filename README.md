@@ -4,7 +4,7 @@
 More a 100 metros da Avenida Beira Rio. Um empreendimento com excelente acabamento e ótima localização.
 
 ## 🔥 Introdução
-Landing page de geração de leads para o empreendimento Edf. Morada da Torre
+Landing page de geração de leads para o empreendimento Edf. Morada da Torre.
 
 [Acessar site](https://moradadatorre.com.br/)
 
