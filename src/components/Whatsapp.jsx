@@ -29,7 +29,7 @@ function Whatsapp() {
       }
     })
       .then(function (response) {
-        window.location = "https://api.whatsapp.com/send?phone=5581900000000"
+        window.location = "https://api.whatsapp.com/send?phone=558132230205"
         console.log(response.data);
         console.log("Nome:", nome_contato, "/", "Email:", email, "Telefone:", telefone, "=", "Contato Enviado com sucesso!")
       });
