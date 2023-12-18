@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/logo/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Morada da Torre</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./src/assets/logo/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morada da Torre</title>
+
+  <!-- MTag script initialization start-->
+  <script type="text/javascript">
+    let options = {
+      "trackView": true,
+      "contatoFieldToInputNameMap": {
+        "telefone": "telefone",
+        "mensagem": "mensagem",
+        "nome": "nome_contato",
+        "email": "email"
+      },
+      "fillForms": true,
+      "contatoFormSelector": "#formContato"
+    };
+    let contatoCallBackFunction = function (evt) {
+      console.log();
+    };
+    options.contatoCallBackFunction = contatoCallBackFunction;
+
+    function initMTag() {
+      martaTrackingTag = new mtag("705af5ba-c2c0-41f3-8684-178825d1296a", options);
+    }
+  </script>
+  <script defer src="https://app.deixacommarta.com.br/arquivos/scripts/mtag.min.js" onload="initMTag()"></script>
+  <!-- MTag script initialization end -->
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

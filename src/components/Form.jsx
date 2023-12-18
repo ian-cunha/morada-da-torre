@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Form() {
 
@@ -39,7 +39,7 @@ function Form() {
   return (
     <div>
       <h2 className='fs-3'>Fale conosco:</h2>
-      <form name="formContato" onSubmit={handleSubmit}>
+      <form id='formContato' name="formContato" onSubmit={handleSubmit}>
         <fieldset>
           <div>
             <label htmlFor="contatoNome" className="form-label text-light"></label>

@@ -32,7 +32,7 @@ function Body() {
           <p className="fw-semibold fs-4 text-light financiamento">Financiamento até em 80%</p>
         </div>
         <div className="text-light">
-          <h3 className="fs-5 box">2 QUARTOS, SENDO UMA 1 SUÍTE</h3>
+          <h3 className="fs-5 box">2 QUARTOS, SENDO 1 SUÍTE</h3>
           <h3 className="fs-5 box">SALA DE JANTAR/ESTAR</h3>
           <h3 className="fs-5 box">W.C SOCIAL</h3>
           <h3 className="fs-5 box">COZINHA</h3>
