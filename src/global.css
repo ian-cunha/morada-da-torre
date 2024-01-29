@@ -83,6 +83,27 @@
   padding: 1px 8px;
 }
 
+.valueTop { 
+  font-size: 4em;
+  background-color: transparent;
+  width: 400px;
+  color: #c9e9e9;
+  border-radius: 50px;
+  border-color: #c9e9e9;
+  border-style: solid;
+  padding: 1px 8px;
+}
+
+.textValue {
+  font-size: 2em;
+  font-weight: 400;
+  color: #c9e9e9;
+  width: 320px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
 .financiamento {
   text-decoration-line: underline;
 }
@@ -179,6 +200,16 @@
     width: 100%;
     border-radius: 10px;
     padding: 10px;
+  }
+
+  .valueTop {
+    font-size: 3.5em;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .textValue {
+    text-align: center;
   }
 
   .text-correction {
